@@ -1,12 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200pt" height="1200pt" version="1.1" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
-    <rect x="0" y="0" width="1200" height="1200"/>  
-    <g transform="matrix(1,0,0,1,-86.0315,-86.5)">
-        <g transform="matrix(0.846767,0,0,0.846767,177.975,178.44)">
-            <path d="M158.32,35.5L38.52,155.29L483.23,600L38.52,1044.71L158.32,1164.5L722.81,600L158.32,35.5Z" style="fill:white;fill-rule:nonzero;"/>
-        </g>
-        <g transform="matrix(0.846767,0,0,0.846767,177.975,178.44)">
-            <path d="M596.97,35.5L477.18,155.29L921.89,600L477.18,1044.71L596.97,1164.5L1161.47,600L596.97,35.5Z" style="fill:white;fill-rule:nonzero;"/>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background Circle -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6" />
+      <stop offset="100%" style="stop-color:#8B5CF6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main shapes -->
+  <g transform="translate(2, 2) scale(0.875)">
+    <!-- Triangle -->
+    <path 
+      d="M16 4 L28 28 L4 28 Z" 
+      fill="url(#gradient)"
+      opacity="0.9"
+    />
+    <!-- Circle -->
+    <circle 
+      cx="16" 
+      cy="16" 
+      r="6" 
+      fill="#ffffff"
+      opacity="0.95"
+    />
+  </g>
 </svg>

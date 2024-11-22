@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "QuickPic - Quick Tools For Images",
+  title: "PixelFow - Quick Tools For Images",
   description: "A bunch of simple tools for images. All free. No BS.",
   icons: {
     icon: "/favicon.svg",
